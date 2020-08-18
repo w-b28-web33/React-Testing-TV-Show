@@ -9,7 +9,7 @@ import { act } from "react-dom/test-utils";
 jest.mock("./api/fetchShow");
 
 const res = [
-  data: {
+    {
     id: 2993,
     url: "http://www.tvmaze.com/shows/2993/stranger-things",
     name: "Stranger Things",
